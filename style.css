@@ -25,13 +25,15 @@ li {
   font-family: "Rubik", sans-serif;
 }
 
+header {
+  background: #F2F2F2;
+}
 header .header {
-  padding: 10px;
   display: flex;
   justify-content: space-between;
 }
 header .header .icon_holder {
-  width: 10%;
+  width: 7%;
   padding-top: 40px;
   display: flex;
   flex-direction: column;
@@ -39,15 +41,16 @@ header .header .icon_holder {
   position: relative;
   background: #FFFFFF;
   box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.153573);
+  height: 920px;
 }
 header .header .icon_holder .icon_holder-social_links {
-  height: 60%;
+  height: 40%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
   position: absolute;
-  bottom: -140px;
+  bottom: 0;
 }
 header .header .icon_holder .icon_holder-social_links p {
   transform: rotate(-90deg);
@@ -88,6 +91,7 @@ header .header .header_image-container .navbar {
   width: 60%;
   position: absolute;
   right: 0;
+  box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.252076);
 }
 header .header .header_image-container .navbar ul {
   padding: 15px 10px;
@@ -134,18 +138,18 @@ header .header .header_image-container .slider_arrows {
   width: 7%;
   position: absolute;
   right: 5%;
-  bottom: -100px;
+  bottom: -80px;
   display: flex;
   justify-content: space-between;
 }
 header .header .header_image-container .text-box {
-  width: 45%;
+  width: 50%;
   background: #FFFFFF;
   box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.128196), inset 10px 0px 0px #FDBF44;
   padding: 20px 40px;
   position: relative;
   position: absolute;
-  bottom: -140px;
+  bottom: -120px;
   left: -120px;
 }
 header .header .header_image-container .text-box h6 {
@@ -176,4 +180,31 @@ header .header .header_image-container .text-box button {
   padding: 12px 25px;
   bottom: 10%;
   right: 10%;
+}
+
+@media (max-width: 1100px) {
+  header .header .logo_text-container h2 {
+    font-size: 30px;
+  }
+  header .header .header_image-container .navbar {
+    width: 70%;
+  }
+  header .header .header_image-container .navbar ul li {
+    font-size: 13px;
+  }
+  header .header .header_image-container h1 {
+    font-size: 100px;
+  }
+  header .header .header_image-container .slider_arrows {
+    width: 11%;
+  }
+  header .header .header_image-container .text-box {
+    width: 55%;
+  }
+  header .header .header_image-container .text-box h3 {
+    font-size: 28px;
+  }
+  header .header .header_image-container .text-box p {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=style.css.map */
