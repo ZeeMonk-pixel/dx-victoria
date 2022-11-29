@@ -38,7 +38,7 @@ header{
             position: relative;
             background: #FFFFFF;
             box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.153573);  
-            height: 920px; 
+            height: 930px; 
             .icon_holder-social_links{
                 // border: 1px solid tomato;
                 height: 40%;
@@ -139,7 +139,7 @@ header{
                 width: 7%;
                 position: absolute;
                 right: 5%;
-                bottom: -80px;
+                bottom: -90px;
                 display: flex;
                 justify-content: space-between;
             }
@@ -151,7 +151,7 @@ header{
                 padding: 20px 40px;
                 position: relative;
                 position: absolute;
-                bottom: -120px;
+                bottom: -130px;
                 left: -120px;
                 h6{
                     font-weight: 400;
@@ -165,13 +165,19 @@ header{
                     font-size: 40px;
                     line-height: 40px;
                     color: #000A1E;
-                    padding: 20px 0;
+                    padding: 20px 0 10px;
+                }
+                div{
+                    width: 8rem;
+                    background: rgba(253, 191, 68, 0.15);
+                    height: 10px;
                 }
                 p{
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 33px;
                     color: #91949A;
+                    padding: 20px 0;
                     margin-bottom: 60px;
                 }
                 button{

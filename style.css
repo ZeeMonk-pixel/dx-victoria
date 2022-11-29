@@ -41,7 +41,7 @@ header .header .icon_holder {
   position: relative;
   background: #FFFFFF;
   box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.153573);
-  height: 920px;
+  height: 930px;
 }
 header .header .icon_holder .icon_holder-social_links {
   height: 40%;
@@ -138,7 +138,7 @@ header .header .header_image-container .slider_arrows {
   width: 7%;
   position: absolute;
   right: 5%;
-  bottom: -80px;
+  bottom: -90px;
   display: flex;
   justify-content: space-between;
 }
@@ -149,7 +149,7 @@ header .header .header_image-container .text-box {
   padding: 20px 40px;
   position: relative;
   position: absolute;
-  bottom: -120px;
+  bottom: -130px;
   left: -120px;
 }
 header .header .header_image-container .text-box h6 {
@@ -164,13 +164,19 @@ header .header .header_image-container .text-box h3 {
   font-size: 40px;
   line-height: 40px;
   color: #000A1E;
-  padding: 20px 0;
+  padding: 20px 0 10px;
+}
+header .header .header_image-container .text-box div {
+  width: 8rem;
+  background: rgba(253, 191, 68, 0.15);
+  height: 10px;
 }
 header .header .header_image-container .text-box p {
   font-weight: 400;
   font-size: 16px;
   line-height: 33px;
   color: #91949A;
+  padding: 20px 0;
   margin-bottom: 60px;
 }
 header .header .header_image-container .text-box button {
